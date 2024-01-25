@@ -48,7 +48,7 @@ Contributions to this repository are welcome. Please adhere to the contribution 
 ## Contact
 
 If you have questions dont hesitate to reach me at guymorganb@gmail.com
-give me a follow on instagram if your in the neighborhood! @guyycodes Id love to keep making more useful things. 
+give me a follow on instagram if your in the neighborhood! @guyycodes, Id love to keep making more useful things. 
 
 To get started with this repository, clone it to your local machine using:
 
