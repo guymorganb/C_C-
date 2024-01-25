@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug HelloWorld",
+      "type": "cppdbg", // or lldb, depending on your setup
+      "request": "launch",
+      "program": "/Users/guymorganb/Desktop/GitHub_Repos/C_Programmming/${file}", // Update this to your executable path
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "/Users/guymorganb/Desktop/GitHub_Repos/C_Programmming",
+      "environment": [],
+       // Optional: if you have a build task configured
+      "externalConsole": false,
+      "MIMode": "lldb", // or gdb, depending on your system
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Build C program"
+    }
+  ]
+}
