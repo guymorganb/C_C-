@@ -45,6 +45,11 @@ Navigate to the project or directory of interest and refer to the specific READM
 
 Contributions to this repository are welcome. Please adhere to the contribution guidelines provided in each sub-directory or project to maintain consistency and quality.
 
+## Contact
+
+If you have questions dont hesitate to reach me at guymorganb@gmail.com
+give me a follow on instagram if your in the neighborhood! @guyycodes Id love to keep making more useful things that help people. 
+
 To get started with this repository, clone it to your local machine using:
 
 ```bash
