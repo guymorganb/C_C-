@@ -8,7 +8,7 @@ Welcome to the C/C++ Development repository! This repository is a curated collec
 A C++ implementation of a Sudoku solver. This project demonstrates algorithmic problem-solving and C++ best practices.
 
 ### Servers/QUICHE
-This directory contains examples and experiments with the QUICHE server implementations. It's a part of exploring and testing HTTP/3 protocols.
+This directory is setup for my experiments with the QUICHE server implementation of Lsquic. It's a part of exploring and testing HTTP/3 protocols.
 
 ### TCP_socket_examples
 A set of examples illustrating the usage of TCP sockets in C. It is valuable for understanding network programming in Unix/Linux environments.
