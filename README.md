@@ -10,6 +10,9 @@ A C++ implementation of a Sudoku solver. This project demonstrates algorithmic p
 ### Servers/QUICHE
 This directory is setup for my experiments with the QUICHE server implementation of Lsquic. It's a part of exploring and testing HTTP/3 protocols.
 
+### Practice
+This directory contains my implementations working through the book problems of "The Ansi C Programming language" and some data structures I learned from my Java Courses implemented using C.
+
 ### TCP_socket_examples
 A set of examples illustrating the usage of TCP sockets in C. It is valuable for understanding network programming in Unix/Linux environments.
 

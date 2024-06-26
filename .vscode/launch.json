@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "run",
+      "type": "node",
+      "request": "launch",
+      "args": [
+        "run"
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/guymorganb/Desktop/GitHub_Repos/C_C_plus_plus",
+      "program": "/Users/guymorganb/Desktop/GitHub_Repos/C_C_plus_plus/build/Debug/outDebug"
+    }
+  ]
+}
