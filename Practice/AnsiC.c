@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 
 void printCelsiusToFahrenheitTable() {
     // 1-3 & 1-4
@@ -202,6 +204,55 @@ void replace_special_chars(){
      */
 }
 
+void count_duplicates() {
+
+#define MAX_LENGTH 50
+#define ALPHABET_SIZE 26
+
+    char str[MAX_LENGTH] = {0};
+    int count[ALPHABET_SIZE] = {0};
+    int i, j, max_count = 0;
+    char c;
+
+    printf("Please input a string (max %d characters):\n", MAX_LENGTH - 1);
+
+    // Read the input string
+    i = 0;
+    while (i < MAX_LENGTH - 1 && (c = getchar()) != EOF && c != '\n') {
+        if (isalpha(c)) {
+            str[i++] = tolower(c);
+        }
+    }
+    str[i] = '\0';
+
+    // Count the occurrences of each character
+    for (i = 0; str[i]; i++) {
+        count[str[i] - 'a']++;
+        if (count[str[i] - 'a'] > max_count) {
+            max_count = count[str[i] - 'a'];
+        }
+    }
+
+    // Print the vertical histogram
+    printf("\nCharacter frequency histogram:\n\n");
+    for (i = max_count; i > 0; i--) {
+        for (j = 0; j < ALPHABET_SIZE; j++) {
+            if (count[j] >= i) {
+                printf("*  ");
+            } else {
+                printf("   ");
+            }
+        }
+        printf("\n");
+    }
+
+    // Print the alphabet
+    for (i = 0; i < ALPHABET_SIZE; i++) {
+        printf("%c  ", 'a' + i);
+    }
+    printf("\n");
+}
+
 int main() {
 
     printf("Hello, World\n");
@@ -213,8 +264,8 @@ int main() {
     // charConstants();
     // countBlanks_Tabs_NewLines();
     // copy_input_to_output();
-    replace_special_chars();
-
+    // replace_special_chars();
+    count_duplicates();
 
     return 0;
 }

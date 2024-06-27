@@ -2,14 +2,15 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/guymorganb/Desktop/GitHub_Repos/C_C_plus_plus/Practice/output/AnsiC'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printCelsiusToFahrenheitTable, symObjAddr: 0x0, symBinAddr: 0x100003684, symSize: 0xBC }
-  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _printCelsiusToFahrenheitTable, symObjAddr: 0x0, symBinAddr: 0x100003684, symSize: 0xBC }
-  - { offsetInCU: 0x7F, offset: 0x7F, size: 0x8, addend: 0x0, symName: _takeCharInput, symObjAddr: 0xBC, symBinAddr: 0x100003740, symSize: 0x88 }
-  - { offsetInCU: 0xA3, offset: 0xA3, size: 0x8, addend: 0x0, symName: _checkGetChar, symObjAddr: 0x144, symBinAddr: 0x1000037C8, symSize: 0x4C }
-  - { offsetInCU: 0xB8, offset: 0xB8, size: 0x8, addend: 0x0, symName: _emptyFor, symObjAddr: 0x190, symBinAddr: 0x100003814, symSize: 0x68 }
-  - { offsetInCU: 0xDC, offset: 0xDC, size: 0x8, addend: 0x0, symName: _charConstants, symObjAddr: 0x1F8, symBinAddr: 0x10000387C, symSize: 0x68 }
-  - { offsetInCU: 0x100, offset: 0x100, size: 0x8, addend: 0x0, symName: _countBlanks_Tabs_NewLines, symObjAddr: 0x260, symBinAddr: 0x1000038E4, symSize: 0x128 }
-  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _copy_input_to_output, symObjAddr: 0x388, symBinAddr: 0x100003A0C, symSize: 0x208 }
-  - { offsetInCU: 0x1D7, offset: 0x1D7, size: 0x8, addend: 0x0, symName: _replace_special_chars, symObjAddr: 0x590, symBinAddr: 0x100003C14, symSize: 0x118 }
-  - { offsetInCU: 0x225, offset: 0x225, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6A8, symBinAddr: 0x100003D2C, symSize: 0x44 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printCelsiusToFahrenheitTable, symObjAddr: 0x0, symBinAddr: 0x100003308, symSize: 0xBC }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _printCelsiusToFahrenheitTable, symObjAddr: 0x0, symBinAddr: 0x100003308, symSize: 0xBC }
+  - { offsetInCU: 0x7F, offset: 0x7F, size: 0x8, addend: 0x0, symName: _takeCharInput, symObjAddr: 0xBC, symBinAddr: 0x1000033C4, symSize: 0x88 }
+  - { offsetInCU: 0xA3, offset: 0xA3, size: 0x8, addend: 0x0, symName: _checkGetChar, symObjAddr: 0x144, symBinAddr: 0x10000344C, symSize: 0x4C }
+  - { offsetInCU: 0xB8, offset: 0xB8, size: 0x8, addend: 0x0, symName: _emptyFor, symObjAddr: 0x190, symBinAddr: 0x100003498, symSize: 0x68 }
+  - { offsetInCU: 0xDC, offset: 0xDC, size: 0x8, addend: 0x0, symName: _charConstants, symObjAddr: 0x1F8, symBinAddr: 0x100003500, symSize: 0x68 }
+  - { offsetInCU: 0x100, offset: 0x100, size: 0x8, addend: 0x0, symName: _countBlanks_Tabs_NewLines, symObjAddr: 0x260, symBinAddr: 0x100003568, symSize: 0x128 }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _copy_input_to_output, symObjAddr: 0x388, symBinAddr: 0x100003690, symSize: 0x208 }
+  - { offsetInCU: 0x1D7, offset: 0x1D7, size: 0x8, addend: 0x0, symName: _replace_special_chars, symObjAddr: 0x590, symBinAddr: 0x100003898, symSize: 0x118 }
+  - { offsetInCU: 0x225, offset: 0x225, size: 0x8, addend: 0x0, symName: _count_duplicates, symObjAddr: 0x6A8, symBinAddr: 0x1000039B0, symSize: 0x300 }
+  - { offsetInCU: 0x28F, offset: 0x28F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9A8, symBinAddr: 0x100003CB0, symSize: 0x44 }
 ...
